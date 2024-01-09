@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h1 {
+	background-color: red;
+	height: 5rem;
+	color: white;
+	font-size: 3rem;
+	line-height: 5rem;
+}
+.allsign {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 4rem;
+	margin-top: 5rem;
+}
+.sign {
+	height: 170px;
+	width: 170px;
+	border: 4px solid black;
+}
+.sign:hover {
+	cursor: pointer;
+	border: 3px solid red;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+.score-board {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 2rem;
+	font-size: 3rem;
+}
+#user-score {
+	font-size: 5rem;
+}
+#com-score {
+	font-size: 5rem;
+}
+.msg-box {
+	font-size: 3rem;
+	background-color: darkslateblue;
+	color: white;
+	display: inline-block;
+	margin-top: 2rem;
+	padding: 1rem;
+	border-radius: 2rem;
+}
